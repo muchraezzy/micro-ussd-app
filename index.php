@@ -1,6 +1,6 @@
 <?php
 //1. Ensure ths code runs only after a POST from AT
-if(!empty($_POST) && !empty($_POST['phoneNumber'])){
+//if(!empty($_POST) && !empty($_POST['phoneNumber'])){
 	require_once('dbConnector.php');
 	require_once('AfricasTalkingGateway.php');
 	require_once('config.php');
@@ -694,5 +694,5 @@ if(!empty($_POST) && !empty($_POST['phoneNumber'])){
 			}	
 		}		
 	} 
-}
+//}
 ?>
